@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Registration Form </title>
+    </head>
+    <body>
+        <hr>
+        <nav>
+            <a href="../index.html"> Home </a> |
+            <a href="../about.html"> Tentang Kami </a> |
+            <a href="../Registration/registration.html"> Pendaftaran </a> |
+            <a href="/MID-EXAM-WEB-DESIGN(F)/Registration/BiayaKuliah/biaya-kuliah.html"> Biaya Kuliah </a> |
+            <a href="/MID-EXAM-WEB-DESIGN(F)/Registration/BiayaKuliah/beasiswa/beasiswa.html"> Beasiswa </a> |
+            <a href="/MID-EXAM-WEB-DESIGN(F)/Registration/BiayaKuliah/kontak/kontak.html"> Kontak </a>
+            
+        </nav>
+        <hr>
+        
+        <h1> UNKLAB Registration Form for New Student </h1>
+
+        <form>
+            <table>    
+                <tr>
+                    <td>Registration Number</td>
+                    <td>:</td>
+                    <td><input type="text" name="NoRegis" size="1"></td>
+                    <td><input type="text" name="NoRegis" size="1"></td>
+                    <td><input type="text" name="NoRegis" size="1"></td>
+                    <td><input type="text" name="NoRegis" size="1"></td>
+                    <td><input type="text" name="NoRegis" size="1"></td>
+                    <td><input type="text" name="NoRegis" size="1"></td>
+                    <td><input type="text" name="NoRegis" size="1"></td>
+                    <td><input type="text" name="NoRegis" size="1"></td>
+                </tr>
+            </table>
+            <br>       
+            <fieldset>
+                <legend> Personal Information </legend>
+                <table>
+                    <tr>
+                        <td> <label for="fullname"> Fullname </label> </td>
+                        <td>:</td>
+                        <td colspan="5"> <input type="text" name="fullname" id="fullname" size="65"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="birthplace"> Birthplace </label> </td>
+                        <td>:</td>
+                        <td> <input type="text" name="birthplace" id="birthplace" size="20"> </td>
+                        <td> <label for="dateofbirth"> Date Of Birth </label> </td>
+                        <td>:</td>
+                        <td> <input type="date" name="dateofbirth" id="dateofbirth"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="gender"> Gender </label> </td>
+                        <td> : </td>
+                        <td>
+                            <input type="radio" name="gender" id="gender1"> Male
+                            <input type="radio" name="gender" id="gender2"> Female
+                        </td>
+                        <td> <label for="bloodtype"> Blood Type </label> </td>
+                        <td> : </td>
+                        <td>
+                            <input type="radio" name="bloodtype" id="bloodtype1"> A
+                            <input type="radio" name="bloodtype" id="bloodtype2"> B
+                            <input type="radio" name="bloodtype" id="bloodtype3"> AB
+                            <input type="radio" name="bloodtype" id="bloodtype4"> O
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="tribe"> Tribe </label> </td>
+                        <td> : </td>
+                        <td> <input type="text" name="tribe" id="tribe"> </td>
+                        <td> <label for="email"> Email </label> </td>
+                        <td> : </td>
+                        <td> <input type="email" name="email" id="email"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="teleponnumber"> Telepon Number </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="teleponnumber" id="teleponnumber"> </td>
+                        <td> <label for="mobilenumber"> Mobile Number </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="mobilenumber" id="mobilenumber"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="status"> Status </label> </td>
+                        <td> : </td>
+                        <td>
+                            <select name="status" id="status">
+                                <option value="single"> Single </option>
+                                <option value="menikah"> Student Married </option>
+                                <option value="pacaran"> Berpacaran </option>
+                            </select>
+                        </td>
+                        <td> <label for="religion"> Religion </label> </td>
+                        <td> : </td>
+                        <td>
+                            <select name="religion" id="religion">
+                                <option value="advent"> Seventh Day Adventist </option>
+                                <option value="katolik"> Katolik </option>
+                                <option value="islam"> Islam </option>
+                                <option value="gmim"> Gmim </option>
+                                <option value="hindu"> Hindu </option>
+                                <option value="buddha"> Buddha </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="homeaddres"> Home Addres </label> </td>
+                        <td> <td>  <textarea name="home_address" cols="25" rows="10"></textarea> </td> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="postcode"> Postal Code </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="postcode" id="postcode"> </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend> School Information </legend>
+                <table>
+                    <tr>
+                        <td> <label for="highschoolname"> High School Name </label> </td>
+                        <td>:</td>
+                        <td colspan="5"> <input type="text" name="highschoolname" id="highschoolname" size="65"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="program"> Program </label> </td>
+                        <td> : </td>
+                        <td> <input type="text" name="program" id="program"></td>
+                        <td> <label for="teleponnmber"> Telephone Number </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="teleponnmber" id="teleponnmber"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="schooladdres"> School Addres </label> </td>
+                        <td> <td> <textarea name="schooladdres" id="schooladdres" cols="25" rows="10"></textarea> </td> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="postCode"> Postal Code </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="postCode" id="postCode"> </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+
+            <br>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend> Parent's Information </legend>
+                <table>
+                    <tr>
+                        <td> <label for="fathersname"> Father's Name </label> </td>
+                        <td> : </td>
+                        <td colspan="5"> <input type="text" name="fathersname" id="fathersname" size="65"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="mobileNumber"> Mobile Number </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="mobileNumber" id="mobileNumber"> </td>
+                        <td> <label for="emaill"> Email </label> </td>
+                        <td> : </td>
+                        <td> <input type="email" name="emaill" id="emaill"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="education"> Education </label> </td>
+                        <td>:</td>
+                        <td>
+                            <select name="education" id="education">
+                                <option value="sd"> SD </option>
+                                <option value="smp"> SMP </option>
+                                <option value="sma/smk"> SMA/SMK </option>
+                            </select>
+                        </td>
+                        <td> <label for="religionn"> Religion </label> </td>
+                        <td> : </td>
+                        <td>
+                            <select name="religionn" id="religionn">
+                                <option value="advent"> Seventh Day Adventist </option>
+                                <option value="katolik"> Katolik </option>
+                                <option value="islam"> Islam </option>
+                                <option value="gmim"> Gmim </option>
+                                <option value="hindu"> Hindu </option>
+                                <option value="buddha"> Buddha </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="mothersname"> Mother's Name </label> </td>
+                        <td> : </td>
+                        <td colspan="5"> <input type="text" name="mothersname" id="mothersname" size="65"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="mobileNumberr"> Mobile Number </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="mobileNumberr" id="mobileNumberr"> </td>
+                        <td> <label for="email."> Email </label> </td>
+                        <td> : </td>
+                        <td> <input type="email" name="email." id="email."> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="education."> Education </label> </td>
+                        <td>:</td>
+                        <td>
+                            <select name="education." id="education.">
+                                <option value="sd"> SD </option>
+                                <option value="smp"> SMP </option>
+                                <option value="sma/smk"> SMA/SMK </option>
+                            </select>
+                        </td>
+                        
+                        <td> <label for="religion."> Religion </label> </td>
+                        <td> : </td>
+                        <td>
+                            <select name="religion." id="religion.">
+                                <option value="advent"> Seventh Day Adventist </option>
+                                <option value="katolik"> Katolik </option>
+                                <option value="islam"> Islam </option>
+                                <option value="gmim"> Gmim </option>
+                                <option value="hindu"> Hindu </option>
+                                <option value="buddha"> Buddha </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+
+            <br>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend> Parents Carer's Information </legend>
+                <table>
+                    <tr>
+                        <td> <label for="fullName"> Full Name </label> </td>
+                        <td> : </td>
+                        <td colspan="5"> <input type="text" name="fullName" id="fullName" size="65"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="familyrelation"> Family Relation </label> </td>
+                        <td> : </td>
+                        <td> <input type="text" name="familyrelation" id="familyrelation"> </td>
+                        <td> <label for="emaill."> Email </label> </td>
+                        <td> : </td>
+                        <td> <input type="email" name="emaill." id="emaill."> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="homephonenumber"> Home Phone Number </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="homephonenumber" id="homephonenumber"> </td>
+                        <td> <label for="mobilenumber."> Mobile Number </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="mobilenumber." id="mobilenumber."> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="educationn."> Education </label> </td>
+                        <td>:</td>
+                        <td>
+                            <select name="educationn." id="educationn.">
+                                <option value="sd"> SD </option>
+                                <option value="smp"> SMP </option>
+                                <option value="sma/smk"> SMA/SMK </option>
+                            </select>
+                        </td>
+
+                        <td> <label for="religionn."> Religion </label> </td>
+                        <td> : </td>
+                        <td>
+                            <select name="religionn." id="religionn.">
+                                <option value="advent"> Seventh Day Adventist </option>
+                                <option value="katolik"> Katolik </option>
+                                <option value="islam"> Islam </option>
+                                <option value="gmim"> Gmim </option>
+                                <option value="hindu"> Hindu </option>
+                                <option value="buddha"> Buddha </option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <p><input type="checkbox">I hereby state that all information on this New Student Registration Form are complete and true. <br>
+            All contens on this form I submitted to Universitas Klabat and Universitas Klabat are not oblidge to return it. </p>
+
+            <p> Airmadidi, <input type="date"> </p>
+            
+            <table>
+                <tr>
+                    <td><button> Reset Form </button></td>
+                    <td><button> Register </button></td>
+                </tr>
+            </table>
+
+        </form>
+
+        <hr>
+
+        <footer>
+            <small> Copyright WebDesign Course UNKLAB <span>&copy;</span> 2022 </small>
+        </footer>
+
+    
+    </body>
+</html>
